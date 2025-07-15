@@ -18,6 +18,9 @@ namespace Biblix.Pages
 
         public string MensajeError { get; set; }
 
+        [BindProperty]
+        public bool UsuarioLogeado { get; set; } =false;
+
         public void OnGet()
         {
             MensajeError = "";
@@ -28,8 +31,7 @@ namespace Biblix.Pages
             // Usuario y contraseña "duros" (de prueba)
             if (Usuario == "admin" && Contraseña == "1234")
             {
-                // Guardar una variable de sesión simulada (simple)
-                TempData["UsuarioLogueado"] = Usuario;
+                UsuarioLogeado = true;
                 return RedirectToPage("Libros");
             }
 

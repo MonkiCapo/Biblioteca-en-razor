@@ -13,9 +13,11 @@ namespace Biblix.Pages
     {
         public List<Libro> ListaLibros { get; set; }
 
+        public bool UsuarioLogeado;
+
         public IActionResult OnGet()
         {
-            if (TempData["UsuarioLogueado"] == null)
+            if (!UsuarioLogeado)
             {
                 return RedirectToPage("Login");
             }

@@ -7,14 +7,14 @@ public class IndexModel : PageModel
 {
     public string Usuario { get; set; }
 
+    
+    public bool UsuarioLogeado;
+
     public void OnGet()
     {
-        if (TempData["UsuarioLogueado"] != null)
+        if (UsuarioLogeado)
         {
-            Usuario = TempData["UsuarioLogueado"].ToString();
-
-            // Mantener TempData viva para otros requests
-            TempData.Keep("UsuarioLogueado");
+            Usuario = "UsuarioLogeado";
         }
     }
 }
