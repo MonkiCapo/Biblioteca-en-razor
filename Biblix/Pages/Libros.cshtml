@@ -1,0 +1,28 @@
+@page
+@model Biblix.Pages.Libros
+@{
+    ViewData["Title"] = "Lista de Libros";
+}
+
+<h1>Libros</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Año</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var libro in Model.ListaLibros)
+    {
+        <tr>
+            <td>@libro.Titulo</td>
+            <td>@libro.Autor</td>
+            <td>@libro.Año</td>
+        </tr>
+    }
+    }
+    </tbody>
+</table>
