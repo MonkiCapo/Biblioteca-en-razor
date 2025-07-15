@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Biblix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08faae93eabb4d2d91d18b4c395c542402354655")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+080b5771586c671f505eeca9ca2697b6d4f18c80")]
 [assembly: System.Reflection.AssemblyProductAttribute("Biblix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Biblix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
