@@ -6,6 +6,7 @@ using Biblix.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
 
 namespace Biblix.Pages
 {
@@ -13,12 +14,13 @@ namespace Biblix.Pages
     {
         public List<Libro> ListaLibros { get; set; }
 
-        public bool UsuarioLogeado;
-
         public IActionResult OnGet()
         {
-            if (!UsuarioLogeado)
+            var usuario = HttpContext.Session.GetString("Usuario");
+
+            if (string.IsNullOrEmpty(usuario))
             {
+                // Redirigir a login si no hay usuario
                 return RedirectToPage("Login");
             }
 

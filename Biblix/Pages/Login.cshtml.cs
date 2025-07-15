@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
 
 namespace Biblix.Pages
 {
@@ -18,8 +19,6 @@ namespace Biblix.Pages
 
         public string MensajeError { get; set; }
 
-        [BindProperty]
-        public bool UsuarioLogeado { get; set; } =false;
 
         public void OnGet()
         {
@@ -31,7 +30,7 @@ namespace Biblix.Pages
             // Usuario y contraseña "duros" (de prueba)
             if (Usuario == "admin" && Contraseña == "1234")
             {
-                UsuarioLogeado = true;
+                HttpContext.Session.SetString("Usuario", Usuario);
                 return RedirectToPage("Libros");
             }
 
