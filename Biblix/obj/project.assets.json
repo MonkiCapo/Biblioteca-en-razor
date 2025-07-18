@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/et12alumno/Escritorio/Razor biblix/Biblioteca-en-razor/Biblix/Biblix.csproj",
+      "projectUniqueName": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/Biblix.csproj",
       "projectName": "Biblix",
-      "projectPath": "/home/et12alumno/Escritorio/Razor biblix/Biblioteca-en-razor/Biblix/Biblix.csproj",
+      "projectPath": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/Biblix.csproj",
       "packagesPath": "/home/et12alumno/.nuget/packages/",
-      "outputPath": "/home/et12alumno/Escritorio/Razor biblix/Biblioteca-en-razor/Biblix/obj/",
+      "outputPath": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/et12alumno/.nuget/NuGet/NuGet.Config"

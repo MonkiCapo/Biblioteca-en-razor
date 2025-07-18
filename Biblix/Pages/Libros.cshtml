@@ -18,7 +18,11 @@
     @foreach (var libro in Model.ListaLibros)
     {
         <tr>
-            <td>@libro.Titulo</td>
+            <td>
+                <a asp-page="/LibroDetalle" asp-route-id="@libro.Id">
+                    @libro.Titulo
+                </a>
+            </td>
             <td>@libro.Autor</td>
             <td>@libro.Año</td>
         </tr>

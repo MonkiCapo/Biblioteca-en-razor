@@ -11,5 +11,6 @@ namespace Biblix.Models
         public string Titulo { get; set; }
         public string Autor { get; set; }
         public int Año { get; set; }
+        public string Descripcion { get; set; }
     }
 }

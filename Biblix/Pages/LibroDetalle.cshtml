@@ -1,0 +1,21 @@
+@page "{id:int}"
+@model Biblix.Pages.LibroDetalleModel
+@{
+    ViewData["Title"] = "Detalle del Libro";
+}
+
+<h2>Detalle del Libro</h2>
+
+@if (Model.LibroSeleccionado != null)
+{
+    <div>
+        <p><strong>Título:</strong> @Model.LibroSeleccionado.Titulo</p>
+        <p><strong>Autor:</strong> @Model.LibroSeleccionado.Autor</p>
+        <p><strong>Año:</strong> @Model.LibroSeleccionado.Año</p>
+        <p><strong>Descripcion:</strong> @Model.LibroSeleccionado.Descripcion</p>
+    </div>
+}
+else
+{
+    <p>Libro no encontrado.</p>
+}
