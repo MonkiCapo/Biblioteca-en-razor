@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 namespace Biblix.Models
 {
     public class Libro
-    {
-        public int Id { get; set; }
-        public string Titulo { get; set; }
-        public string Autor { get; set; }
-        public int Año { get; set; }
-        public string Descripcion { get; set; }
-    }
+{
+    public int Id { get; set; }
+    public string Titulo { get; set; }
+    public string Autor { get; set; }
+    public int Año { get; set; }
+    public string Descripcion { get; set; }
+    public string ImagenUrl { get; set; }
+}
 }

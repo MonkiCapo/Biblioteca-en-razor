@@ -8,14 +8,16 @@
 
 @if (Model.LibroSeleccionado != null)
 {
-    <div>
-        <p><strong>Título:</strong> @Model.LibroSeleccionado.Titulo</p>
-        <p><strong>Autor:</strong> @Model.LibroSeleccionado.Autor</p>
-        <p><strong>Año:</strong> @Model.LibroSeleccionado.Año</p>
-        <p><strong>Descripcion:</strong> @Model.LibroSeleccionado.Descripcion</p>
-    </div>
+    <img src="@Model.LibroSeleccionado.ImagenUrl" alt="@Model.LibroSeleccionado.Titulo" width="200" />
+    <p><strong>Título:</strong> @Model.LibroSeleccionado.Titulo</p>
+    <p><strong>Autor:</strong> @Model.LibroSeleccionado.Autor</p>
+    <p><strong>Año:</strong> @Model.LibroSeleccionado.Año</p>
+    <p><strong>Descripción:</strong> @Model.LibroSeleccionado.Descripcion</p>
+
+    <a asp-page="/Libros" class="btn btn-secondary mt-3">Volver</a>
 }
 else
 {
     <p>Libro no encontrado.</p>
+    <a asp-page="/Libros" class="btn btn-secondary mt-3">Volver</a>
 }

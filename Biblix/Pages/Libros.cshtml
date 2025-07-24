@@ -9,6 +9,7 @@
 <table class="table">
     <thead>
         <tr>
+            <th>Portada</th>
             <th>Título</th>
             <th>Autor</th>
             <th>Año</th>
@@ -19,6 +20,9 @@
     {
         <tr>
             <td>
+                <img src="@libro.ImagenUrl" alt="@libro.Titulo" width="100" />
+            </td>
+            <td class="TextoCambio">
                 <a asp-page="/LibroDetalle" asp-route-id="@libro.Id">
                     @libro.Titulo
                 </a>

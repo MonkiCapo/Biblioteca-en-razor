@@ -60,3 +60,36 @@
 /home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.pdb
 /home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.genruntimeconfig.cache
 /home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/ref/Biblix.dll
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\appsettings.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.staticwebassets.runtime.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.staticwebassets.endpoints.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.exe
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.deps.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.runtimeconfig.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.dll
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.pdb
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.AssemblyInfoInputs.cache
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.AssemblyInfo.cs
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.csproj.CoreCompileInputs.cache
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.RazorAssemblyInfo.cache
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.RazorAssemblyInfo.cs
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.sourcelink.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\bundle\Biblix.styles.css
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\projectbundle\Biblix.bundle.scp.css
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.dll
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\refint\Biblix.dll
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.pdb
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.genruntimeconfig.cache
+C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\ref\Biblix.dll
