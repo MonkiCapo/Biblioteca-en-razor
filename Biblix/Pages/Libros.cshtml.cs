@@ -28,7 +28,8 @@ namespace Biblix.Pages
             {
                 new Libro { Id = 1, Titulo = "El Principito", Autor = "Antoine de Saint-Exupéry", Año = 1943, Descripcion = "", ImagenUrl = "/img/Principito.jpg" },
                 new Libro { Id = 2, Titulo = "1984", Autor = "George Orwell", Año = 1949, Descripcion = "", ImagenUrl = "/img/1984.jpg" },
-                new Libro { Id = 3, Titulo = "Cien años de soledad", Autor = "Gabriel García Márquez", Año = 1967, Descripcion = "", ImagenUrl = "/img/Cien.jpg" }
+                new Libro { Id = 3, Titulo = "Cien años de soledad", Autor = "Gabriel García Márquez", Año = 1967, Descripcion = "", ImagenUrl = "/img/Cien.jpg" },
+                new Libro { Id = 4, Titulo = "Cadáver exquisito", Autor = "Agustina Bazterrica", Año = 2017, Descripcion = "", ImagenUrl = "/img/cadaver.jpg"}
             };
 
             return Page();
