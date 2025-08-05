@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/img/1984.jpg",
+      "PackagePath": "staticwebassets/img/1984.jpg"
+    },
+    {
+      "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/img/Cien.jpg",
+      "PackagePath": "staticwebassets/img/Cien.jpg"
+    },
+    {
+      "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/img/Principito.jpg",
+      "PackagePath": "staticwebassets/img/Principito.jpg"
+    },
+    {
       "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
