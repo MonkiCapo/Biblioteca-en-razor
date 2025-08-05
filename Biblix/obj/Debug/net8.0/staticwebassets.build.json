@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jhY3zCK1nCDsLYdqq9Ueb4sRDpCCfxUNeFzD02bk/IY=",
+  "Hash": "yA8SEpT+uVQlOmV6I8dn8JHWhB05lJFOrYAhgEq9jNU=",
   "Source": "Biblix",
   "BasePath": "_content/Biblix",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/1984.jpg"
+    },
+    {
+      "Identity": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/img/cadaver.jpg",
+      "SourceId": "Biblix",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/",
+      "BasePath": "_content/Biblix",
+      "RelativePath": "img/cadaver.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/cadaver.jpg"
     },
     {
       "Identity": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/img/Cien.jpg",

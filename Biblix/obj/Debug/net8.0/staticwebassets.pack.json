@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/img/Principito.jpg"
     },
     {
+      "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/img/cadaver.jpg",
+      "PackagePath": "staticwebassets/img/cadaver.jpg"
+    },
+    {
       "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
