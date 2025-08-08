@@ -3,17 +3,32 @@
 @{
     ViewData["Title"] = "Detalle del Libro";
 }
+@section Styles {
+  <style>
+    .detalle-portada {
+      max-width: 200px;
+      border: 2px solid #333;
+      margin-bottom: 15px;
+    }
+    .detalle-info {
+      font-style: italic;
+    }
+  </style>
+}
 
 <h2>Detalle del Libro</h2>
 
 @if (Model.LibroSeleccionado != null)
 {
-    <img src="@Model.LibroSeleccionado.ImagenUrl" alt="@Model.LibroSeleccionado.Titulo" width="200" />
-    <p><strong>Título:</strong> @Model.LibroSeleccionado.Titulo</p>
-    <p><strong>Autor:</strong> @Model.LibroSeleccionado.Autor</p>
-    <p><strong>Año:</strong> @Model.LibroSeleccionado.Año</p>
-    <p><strong>Descripción:</strong> @Model.LibroSeleccionado.Descripcion</p>
-
+    <div class="detalle-info text-center">
+        <h2>@Model.LibroSeleccionado.Titulo</h2>
+        <p>Autor: @Model.LibroSeleccionado.Autor — Año: @Model.LibroSeleccionado.Año</p>
+        @if (!string.IsNullOrEmpty(Model.LibroSeleccionado.ImagenUrl))
+        {
+            <img src="@Model.LibroSeleccionado.ImagenUrl" alt="@Model.LibroSeleccionado.Titulo" class="detalle-portada" />
+        }
+        <p>Descripcion dx: @Model.LibroSeleccionado.Descripcion</p>
+    </div>
     <a asp-page="/Libros" class="btn btn-secondary mt-3">Volver</a>
 }
 else
