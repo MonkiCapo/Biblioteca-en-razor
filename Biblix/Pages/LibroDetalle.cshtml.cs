@@ -9,6 +9,9 @@ namespace Biblix.Pages
     {
         public Libro LibroSeleccionado { get; set; }
 
+        [HttpPost]
+
+
         public IActionResult OnGet(int id)
         {
             var usuario = HttpContext.Session.GetString("Usuario");
@@ -18,8 +21,8 @@ namespace Biblix.Pages
                 return RedirectToPage("Login");
             }
 
-           
-        var libros = new List<Libro>
+
+            var libros = new List<Libro>
         {
             new Libro { Id = 1, Titulo = "El Principito", Autor = "Antoine de Saint-Exupéry", Año = 1943, Descripcion = "Un joven príncipe viaja a diferentes planetas y aprende sobre la vida.", ImagenUrl = "/img/Principito.jpg" },
             new Libro { Id = 2, Titulo = "1984", Autor = "George Orwell", Año = 1949, Descripcion = "Una novela distópica sobre un régimen totalitario que controla la vida de las personas.", ImagenUrl = "/img/1984.jpg" },
@@ -36,6 +39,12 @@ namespace Biblix.Pages
             }
 
             return Page();
+        }
+
+        public IActionResult SubmitRating(int rating)
+        {
+            // Procesa la puntuación (guárdala en la base de datos, etc.)
+            return new JsonResult(new { success = true, message = "¡Gracias por tu calificación!" });
         }
     }
 }
