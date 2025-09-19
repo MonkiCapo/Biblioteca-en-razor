@@ -3,7 +3,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System; // Agregar este using
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Biblix.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,12 +15,18 @@ builder.Services.AddRazorPages();
 builder.Services.AddSession();
 
 // Configurar la conexión a MariaDB
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+/* var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))); */
 
-var app = builder.Build();
+using (var context = new ApplicationDbContext())
+{
+    context.Database.EnsureDeleted();
+    context.Database.EnsureCreated();
+}
+
+    var app = builder.Build();
 
 app.UseSession();
 

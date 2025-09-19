@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/img/Cien.jpg"
     },
     {
+      "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/img/Poesia.jpg",
+      "PackagePath": "staticwebassets/img/Poesia.jpg"
+    },
+    {
       "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/wwwroot/img/Principito.jpg",
       "PackagePath": "staticwebassets/img/Principito.jpg"
     },

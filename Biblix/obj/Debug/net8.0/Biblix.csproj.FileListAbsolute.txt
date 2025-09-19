@@ -60,69 +60,173 @@
 /home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.pdb
 /home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.genruntimeconfig.cache
 /home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/ref/Biblix.dll
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\appsettings.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.staticwebassets.runtime.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.staticwebassets.endpoints.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.exe
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.deps.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.runtimeconfig.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.dll
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.pdb
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.AssemblyInfoInputs.cache
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.AssemblyInfo.cs
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.csproj.CoreCompileInputs.cache
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.RazorAssemblyInfo.cache
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.RazorAssemblyInfo.cs
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.sourcelink.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\bundle\Biblix.styles.css
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\projectbundle\Biblix.bundle.scp.css
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.json.cache
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.dll
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\refint\Biblix.dll
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.pdb
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.genruntimeconfig.cache
-C:\Users\Naho\Desktop\TP project\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\ref\Biblix.dll
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\appsettings.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.staticwebassets.runtime.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.staticwebassets.endpoints.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.exe
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.deps.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.runtimeconfig.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.dll
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\bin\Debug\net8.0\Biblix.pdb
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.AssemblyInfoInputs.cache
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.AssemblyInfo.cs
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.csproj.CoreCompileInputs.cache
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.RazorAssemblyInfo.cache
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.RazorAssemblyInfo.cs
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.sourcelink.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\bundle\Biblix.styles.css
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\scopedcss\projectbundle\Biblix.bundle.scp.css
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.json.cache
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.dll
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\refint\Biblix.dll
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.pdb
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\Biblix.genruntimeconfig.cache
-C:\Users\Naho\Desktop\Proyecto\Biblioteca-en-razor\Biblix\obj\Debug\net8.0\ref\Biblix.dll
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/appsettings.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.staticwebassets.runtime.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.staticwebassets.endpoints.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.exe
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.deps.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.runtimeconfig.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.dll
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.pdb
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/rpswa.dswa.cache.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.AssemblyInfoInputs.cache
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.AssemblyInfo.cs
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.csproj.CoreCompileInputs.cache
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.RazorAssemblyInfo.cache
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.RazorAssemblyInfo.cs
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.sourcelink.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/rjimswa.dswa.cache.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/scopedcss/bundle/Biblix.styles.css
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/scopedcss/projectbundle/Biblix.bundle.scp.css
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/staticwebassets.build.json.cache
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.dll
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/refint/Biblix.dll
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.pdb
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.genruntimeconfig.cache
+C:/Users/Naho/Desktop/TP project/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/ref/Biblix.dll
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/appsettings.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.staticwebassets.runtime.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.staticwebassets.endpoints.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.exe
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.deps.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.runtimeconfig.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.dll
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Biblix.pdb
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/rpswa.dswa.cache.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.AssemblyInfoInputs.cache
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.AssemblyInfo.cs
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.csproj.CoreCompileInputs.cache
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.RazorAssemblyInfo.cache
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.RazorAssemblyInfo.cs
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.sourcelink.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/rjimswa.dswa.cache.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/scopedcss/bundle/Biblix.styles.css
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/scopedcss/projectbundle/Biblix.bundle.scp.css
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/staticwebassets.build.json.cache
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.dll
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/refint/Biblix.dll
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.pdb
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.genruntimeconfig.cache
+C:/Users/Naho/Desktop/Proyecto/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/ref/Biblix.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.csproj.AssemblyReference.cache
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Humanizer.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Build.Locator.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/MySqlConnector.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.CodeDom.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.Composition.Convention.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.Composition.Hosting.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.Composition.Runtime.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.IO.Pipelines.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/System.Text.Json.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblix/obj/Debug/net8.0/Biblix.csproj.CopyComplete
