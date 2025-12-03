@@ -65,15 +65,17 @@ Debe crearse ejecutando los scripts correspondientes antes de iniciar la aplicac
 
 ---
 
+
 # 🚀 Puesta en marcha
 
-```bash
 # Restaurar dependencias
+```bash
 dotnet restore
-
+```
 # Ejecutar la aplicación
+```bash
 dotnet run
-
+```
 
 # 🔍 Análisis del Entorno (31/10)
 
