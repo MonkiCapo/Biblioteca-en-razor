@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Biblioteca.csproj": {}
+    "C:\\Users\\Naho\\Desktop\\Biblioteca-en-razor\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Biblioteca.csproj": {
+    "C:\\Users\\Naho\\Desktop\\Biblioteca-en-razor\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Naho\\Desktop\\Biblioteca-en-razor\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Biblioteca.csproj",
-        "packagesPath": "/home/et12alumno/.nuget/packages/",
-        "outputPath": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/obj/",
+        "projectPath": "C:\\Users\\Naho\\Desktop\\Biblioteca-en-razor\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\Naho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Naho\\Desktop\\Biblioteca-en-razor\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Naho\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,27 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

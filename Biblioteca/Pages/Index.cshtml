@@ -2,9 +2,30 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    var fecha = DateTime.Now;
+    bool logged = User.Identity.IsAuthenticated;
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2>Hoy es: @fecha.ToString("D")</h2>
+    <h1 class="display-4">¡Bienvenido!</h1>
+
+    @if (!logged)
+    {
+        <p>Estás por entrar a explorar la biblioteca. ¿Te gustaría iniciar sesión?</p>
+        <a asp-page="/Login" class="btn btn-primary">Iniciar sesión</a>
+
+        <p>No tenés cuenta? Podés registrarte acá</p>
+        <a asp-page="/Registro" class="btn btn-success">Registrarse</a>
+    }
+    else
+    {
+        <h3>¡Hola @User.Identity.Name!</h3>
+        <p>Ya estás logueado. Podés ir a tus libros:</p>
+        <a asp-page="/Libros/Index" class="btn btn-info">Ir a mi biblioteca</a>
+
+        <form method="post" asp-page-handler="Logout" class="mt-3">
+            <button type="submit" class="btn btn-danger">Cerrar sesión</button>
+        </form>
+    }
 </div>

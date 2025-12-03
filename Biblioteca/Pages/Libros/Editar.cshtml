@@ -1,0 +1,30 @@
+@page "{id:int}"
+@model Biblioteca.Pages.Libros.EditarModel
+
+<h2>Editar libro</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Libro.Id" />
+
+    <div>
+        <label>Título</label>
+        <input asp-for="Libro.Titulo" />
+    </div>
+
+    <div>
+        <label>Autor</label>
+        <input asp-for="Libro.Autor" />
+    </div>
+
+    <div>
+        <label>Año</label>
+        <input asp-for="Libro.Anio" type="number" />
+    </div>
+
+    <div>
+        <label>Descripción</label>
+        <textarea asp-for="Libro.Descripcion"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+</form>

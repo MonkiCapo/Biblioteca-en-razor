@@ -1,0 +1,16 @@
+@page
+@model RegistroModel
+
+<h2>Registro</h2>
+
+<form method="post">
+    <input asp-for="Nombre" placeholder="Nombre" />
+    <input asp-for="Email" placeholder="Email" />
+    <input asp-for="Password" placeholder="Contraseña" type="password" />
+    <button type="submit">Registrarse</button>
+</form>
+
+@if (Model.Error != null)
+{
+    <p>@Model.Error</p>
+}

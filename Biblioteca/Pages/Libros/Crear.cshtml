@@ -1,0 +1,28 @@
+@page
+@model Biblioteca.Pages.Libros.CrearModel
+
+<h2>Agregar libro</h2>
+
+<form method="post">
+    <div>
+        <label>Título</label>
+        <input asp-for="Libro.Titulo" />
+    </div>
+
+    <div>
+        <label>Autor</label>
+        <input asp-for="Libro.Autor" />
+    </div>
+
+    <div>
+        <label>Año</label>
+        <input asp-for="Libro.Anio" type="number" />
+    </div>
+
+    <div>
+        <label>Descripción</label>
+        <textarea asp-for="Libro.Descripcion"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+</form>

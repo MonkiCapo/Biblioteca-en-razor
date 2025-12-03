@@ -1,5 +1,34 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --btn-focus-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  --link-color: #000000;
+  --link-hover-color: #2f3438;
+
+  /* Variables de Bootstrap para modo claro */
+  --bs-body-color: var(--text-color);
+  --bs-link-color: var(--link-color);
+  --bs-bg-body: var(--bg-color);
+}
+
+[data-tema="oscuro"] {
+  --bg-color: #1e1e1e;
+  --text-color: #f0f0f0;
+  --btn-focus-shadow: 0 0 0 0.1rem #333, 0 0 0 0.25rem #555;
+  --link-color: #f0f0f0;
+  --link-hover-color: #ddd;
+
+  /* Variables de Bootstrap para modo oscuro */
+  --bs-body-color: var(--text-color);
+  --bs-link-color: var(--link-hover-color);
+  --bs-bg-body: var(--bg-color);
+}
+
+/* Aplicar los temas globalmente */
 html {
   font-size: 14px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 @media (min-width: 768px) {
@@ -8,15 +37,70 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
   margin-bottom: 60px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Enlaces personalizados */
+.TextoCambio a {
+  color: var(--link-color);
+}
+
+.TextoCambio:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+/* Estilos de tabla */
+[data-tema="oscuro"] .table {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  border-color: var(--text-color) !important;
+}
+
+/* Encabezado de tabla */
+[data-tema="oscuro"] .table thead th {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  border-bottom: 2px solid var(--text-color);
+}
+
+/* Celdas del cuerpo */
+[data-tema="oscuro"] .table tbody tr td {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Links dentro de tabla (como títulos) */
+[data-tema="oscuro"] .table a {
+  color: var(--link-color) !important;
+}
+[data-tema="oscuro"] .table a:hover {
+  color: var(--link-hover-color) !important;
+}
+
+[data-tema="oscuro"] .table img {
+  filter: brightness(85%);
+}
+
+/* Foco de elementos interactivos */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: var(--btn-focus-shadow);
+}
+
+/* FORZAR cambio de color para componentes Bootstrap */
+body, .navbar, .nav-link, .navbar-brand, footer {
+  color: var(--bs-body-color) !important;
+  background-color: var(--bs-bg-body) !important;
+}
+
+.navbar a.nav-link, .navbar-brand {
+  color: var(--bs-link-color) !important;
 }

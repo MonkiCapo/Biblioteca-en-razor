@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿function cambiarTema() {
+    const html = document.documentElement;
+    const temaActual = html.getAttribute("data-tema");
+    const nuevoTema = temaActual === "oscuro" ? "claro" : "oscuro";
+    html.setAttribute("data-tema", nuevoTema);
+    localStorage.setItem("temaPreferido", nuevoTema);
+}
 
-// Write your JavaScript code.
+// Aplicar el tema guardado al cargar
+document.addEventListener("DOMContentLoaded", () => {
+    const temaGuardado = localStorage.getItem("temaPreferido") || "claro";
+    document.documentElement.setAttribute("data-tema", temaGuardado);
+});

@@ -1,19 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Authentication;
 
 namespace Biblioteca.Pages;
 
 public class IndexModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
+    public async Task<IActionResult> OnPostLogout()
     {
-        _logger = logger;
-    }
-
-    public void OnGet()
-    {
-
+        await HttpContext.SignOutAsync("Cookies");
+        return RedirectToPage("/Index");
     }
 }

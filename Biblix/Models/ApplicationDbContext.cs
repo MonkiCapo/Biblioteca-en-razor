@@ -15,7 +15,7 @@ namespace Biblix.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Reemplazar con su información
-            var connectionString = "server=localhost;database=FEDERICO;user=5to_agbd;password=Trigg3rs!;";
+            var connectionString = "server=localhost;database=FEDERICO;user=root;password=corrientes;";
             var serverVersion = ServerVersion.Parse("8.0.41");
 
             optionsBuilder.UseMySql(connectionString, serverVersion);

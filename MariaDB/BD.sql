@@ -1,0 +1,23 @@
+-- Active: 1752667437026@@127.0.0.1@3306@mysql
+
+DROP DATABASE IF EXISTS Biblioteca;
+CREATE DATABASE Biblioteca;
+
+USE Biblioteca;
+
+CREATE TABLE Usuario (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    Email VARCHAR(200) NOT NULL UNIQUE,
+    PasswordHash VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Libro (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Titulo VARCHAR(200) NOT NULL,
+    Autor VARCHAR(200) NOT NULL,
+    Anio INT,
+    Descripcion TEXT,
+    UsuarioId INT,
+    FOREIGN KEY (UsuarioId) REFERENCES Usuario(Id)
+);
