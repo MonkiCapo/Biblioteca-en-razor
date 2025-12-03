@@ -75,8 +75,6 @@ dotnet restore
 dotnet run
 
 
----
-
 # 🔍 Análisis del Entorno (31/10)
 
 ## ⭐ Entorno inmediato
