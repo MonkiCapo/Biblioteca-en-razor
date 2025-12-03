@@ -139,12 +139,6 @@ Hoy ofrecemos:
 Acceso online
 
 
-Planes iniciales de suscripción
-
-
-Beneficios de lanzamiento
-
-
 Objetivo actual:
  Construir una base sólida de usuarios y mejorar la plataforma continuamente.
 A futuro:
@@ -177,35 +171,4 @@ Catálogo curado
 
 
 Accesibilidad y adaptación constante
-
-
-
-📚 Fuentes de Información
-🟦 Fuentes primarias
-Encuestas estructuradas a clientes potenciales
-
-
-Entrevistas en profundidad a usuarios del sector
-
-
-🟩 Fuentes secundarias
-INDEC
-
-
-Ministerio de Economía
-
-
-Cámaras empresariales
-
-
-Consultoras privadas
-
-
-Estadísticas de mercado digital
-
-
-Tendencias publicadas por medios especializados
-
-
-
-
+ 
