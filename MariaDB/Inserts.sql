@@ -6,7 +6,3 @@ INSERT INTO CatalogoLibro (Titulo, Autor, Anio, Descripcion) VALUES
 ('Don Quijote', 'Miguel de Cervantes', 1605, 'Clásico de la literatura');
 
 INSERT INTO Rol (Nombre) VALUES ('Admin'), ('Usuario');
-
-UPDATE Usuario
-SET RolId = 1
-WHERE Id = 1;
