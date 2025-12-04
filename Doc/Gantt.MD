@@ -1,5 +1,4 @@
-'''mermaid
-
+```mermaid
 gantt
     title Plan del Proyecto - Biblioteca Virtual
     dateFormat  YYYY-MM-DD
@@ -23,6 +22,4 @@ gantt
     Agregar libros mediante la BD    :j, after h, 2d
     Agregar buscador de libros       :f, after e, 4d
     Agregar cerrado de sesión        :k, after i, 2d
-
-
-'''
+```
