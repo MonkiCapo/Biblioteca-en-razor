@@ -31,22 +31,30 @@ public class RegistroModel : PageModel
         try
         {
             var sql = @"INSERT INTO Usuario 
-                        (Nombre, Email, PasswordHash, RolId) 
-                        VALUES (@Nombre, @Email, @Pass, 2)";
+                (Nombre, Email, PasswordHash, RolId) 
+                VALUES (@Nombre, @Email, @Pass, @RolId)";
 
             await con.ExecuteAsync(sql, new
             {
                 Nombre,
                 Email,
-                Pass = passHash
+                Pass = passHash,
+                RolId = 2 // Usuario común
             });
 
             return RedirectToPage("/Login");
         }
-        catch
+        catch (Exception ex)
         {
-            Error = "El correo ya está registrado.";
+            Console.WriteLine("ERROR REGISTRO: " + ex.Message);
+
+            if (ex.Message.Contains("Duplicate"))
+                Error = "El correo ya está registrado.";
+            else
+                Error = "Error interno al registrar usuario.";
+
             return Page();
         }
     }
+
 }

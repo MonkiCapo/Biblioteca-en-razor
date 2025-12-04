@@ -233,19 +233,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Naho\\.nuget\\packages\\": {}
+    "/home/et12alumno/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Naho\\Desktop\\Biblioteca-en-razor\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\Naho\\Desktop\\Biblioteca-en-razor\\Biblioteca\\Biblioteca.csproj",
-      "packagesPath": "C:\\Users\\Naho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Naho\\Desktop\\Biblioteca-en-razor\\Biblioteca\\obj\\",
+      "projectPath": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Biblioteca.csproj",
+      "packagesPath": "/home/et12alumno/.nuget/packages/",
+      "outputPath": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Naho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/et12alumno/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -263,13 +263,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -303,7 +297,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
