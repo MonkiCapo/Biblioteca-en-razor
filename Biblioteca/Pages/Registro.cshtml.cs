@@ -24,12 +24,23 @@ public class RegistroModel : PageModel
     {
         using var con = Db.GetConnection(_config);
 
-        var passHash = Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(Password)));
+        var passHash = Convert.ToHexString(
+            SHA256.HashData(Encoding.UTF8.GetBytes(Password))
+        );
 
         try
         {
-            var sql = "INSERT INTO Usuario (Nombre, Email, PasswordHash) VALUES (@Nombre, @Email, @Pass)";
-            await con.ExecuteAsync(sql, new { Nombre, Email, Pass = passHash });
+            var sql = @"INSERT INTO Usuario 
+                        (Nombre, Email, PasswordHash, RolId) 
+                        VALUES (@Nombre, @Email, @Pass, 2)";
+
+            await con.ExecuteAsync(sql, new
+            {
+                Nombre,
+                Email,
+                Pass = passHash
+            });
+
             return RedirectToPage("/Login");
         }
         catch

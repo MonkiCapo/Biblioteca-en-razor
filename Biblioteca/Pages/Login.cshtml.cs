@@ -25,11 +25,17 @@ public class LoginModel : PageModel
     {
         using var con = Db.GetConnection(_config);
 
-        var passHash = Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(Password)));
+        var passHash = Convert.ToHexString(
+            SHA256.HashData(Encoding.UTF8.GetBytes(Password))
+        );
 
         var user = await con.QueryFirstOrDefaultAsync<dynamic>(
-            "SELECT * FROM Usuario WHERE Email=@Email AND PasswordHash=@Hash",
-            new { Email, Hash = passHash });
+            @"SELECT u.Id, u.Nombre, r.Nombre AS Rol
+              FROM Usuario u
+              JOIN Rol r ON u.RolId = r.Id
+              WHERE u.Email=@Email AND u.PasswordHash=@Hash",
+            new { Email, Hash = passHash }
+        );
 
         if (user == null)
         {
@@ -40,7 +46,8 @@ public class LoginModel : PageModel
         var claims = new List<Claim>
         {
             new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-            new Claim(ClaimTypes.Name, user.Nombre)
+            new Claim(ClaimTypes.Name, user.Nombre),
+            new Claim(ClaimTypes.Role, user.Rol)
         };
 
         var identity = new ClaimsIdentity(claims, "Cookies");

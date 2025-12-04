@@ -1,0 +1,22 @@
+@page "{id:int}"
+@model Biblioteca.Pages.Libros.DetallesModel
+
+<h2>Detalles del libro</h2>
+
+@if (Model.Libro == null)
+{
+    <p>Libro no encontrado.</p>
+}
+else
+{
+    <div>
+        <p><strong>Título:</strong> @Model.Libro.Titulo</p>
+        <p><strong>Autor:</strong> @Model.Libro.Autor</p>
+        <p><strong>Año:</strong> @Model.Libro.Anio</p>
+        <p><strong>Descripción:</strong></p>
+        <p>@Model.Libro.Descripcion</p>
+    </div>
+
+    <a asp-page="Index">Volver</a> 
+    <a asp-page="Editar" asp-route-id="@Model.Libro.Id">Editar</a>
+}

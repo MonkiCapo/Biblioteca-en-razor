@@ -21,3 +21,16 @@ CREATE TABLE Libro (
     UsuarioId INT,
     FOREIGN KEY (UsuarioId) REFERENCES Usuario(Id)
 );
+
+CREATE TABLE CatalogoLibro (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Titulo VARCHAR(200) NOT NULL,
+    Autor VARCHAR(200) NOT NULL,
+    Anio INT,
+    Descripcion TEXT
+);
+
+CREATE TABLE Rol (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(50) NOT NULL
+);

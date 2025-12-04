@@ -1,0 +1,36 @@
+@page
+@model Biblioteca.Pages.Catalogo.CrearModel
+
+<h2>Agregar libro al catálogo</h2>
+
+<form method="post" asp-antiforgery="true">
+
+    <div>
+        <label>Título</label>
+        <input asp-for="Libro.Titulo" />
+        <span asp-validation-for="Libro.Titulo"></span>
+    </div>
+
+    <div>
+        <label>Autor</label>
+        <input asp-for="Libro.Autor" />
+        <span asp-validation-for="Libro.Autor"></span>
+    </div>
+
+    <div>
+        <label>Año</label>
+        <input asp-for="Libro.Anio" type="number" />
+        <span asp-validation-for="Libro.Anio"></span>
+    </div>
+
+    <div>
+        <label>Descripción</label>
+        <textarea asp-for="Libro.Descripcion"></textarea>
+        <span asp-validation-for="Libro.Descripcion"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Guardar en catálogo
+    </button>
+
+</form>

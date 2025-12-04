@@ -3,8 +3,6 @@
 
 <h2>Mis libros</h2>
 
-<a asp-page="Crear">Agregar libro</a>
-
 <table class="table">
     <tr>
         <th>Título</th>
@@ -22,9 +20,13 @@
         <td>@libro.Anio</td>
         <td>@libro.Descripcion</td>
         <td>
+            <a asp-page="Detalles" asp-route-id="@libro.Id">Ver</a> |
             <a asp-page="Editar" asp-route-id="@libro.Id">Editar</a> |
             <a asp-page="Eliminar" asp-route-id="@libro.Id">Eliminar</a>
         </td>
     </tr>
 }
 </table>
+
+<p>Si queres ver más libros, podes</p>
+<a asp-page="/Catalogo/Index" class="btn btn-info">Ver catálogo de libros</a>

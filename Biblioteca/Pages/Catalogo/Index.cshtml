@@ -1,0 +1,49 @@
+@page
+@model Biblioteca.Pages.Catalogo.IndexModel
+
+<h2>Catálogo de libros</h2>
+
+@if (User.IsInRole("Admin"))
+{
+    <a asp-page="Crear" class="btn btn-primary">
+        Agregar libro al catálogo
+    </a>
+}
+
+
+<table>
+
+<tr>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>Año</th>
+        <th></th>
+    </tr>
+
+@foreach (var libro in Model.Catalogo)
+{
+    <tr>
+        <td>@libro.Titulo</td>
+        <td>@libro.Autor</td>
+        <td>@libro.Anio</td>
+        <td>
+            @if (libro.YaEnMiBiblioteca)
+            {
+                <button disabled class="btn btn-secondary">
+                    Ya en tu biblioteca
+                </button>
+            }
+            else
+            {
+                <form method="post">
+                    <input type="hidden" name="id" value="@libro.Id" />
+                    <button type="submit" class="btn btn-success">
+                        Agregar a mi biblioteca
+                    </button>
+                </form>
+            }
+        </td>
+
+    </tr>
+}
+</table>
