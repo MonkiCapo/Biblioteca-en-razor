@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/wwwroot/img/libros/d792a370-15da-4bcd-9d12-6756e87755be.jpg",
+      "PackagePath": "staticwebassets/img/libros/d792a370-15da-4bcd-9d12-6756e87755be.jpg"
+    },
+    {
       "Id": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

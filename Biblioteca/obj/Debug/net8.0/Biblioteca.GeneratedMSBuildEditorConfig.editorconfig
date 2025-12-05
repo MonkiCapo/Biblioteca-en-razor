@@ -9,77 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Biblioteca
 build_property.RootNamespace = Biblioteca
-build_property.ProjectDir = C:\Users\Lab20-PC02\Desktop\Biblioteca-en-razor\Biblioteca\
+build_property.ProjectDir = /home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lab20-PC02\Desktop\Biblioteca-en-razor\Biblioteca
+build_property.MSBuildProjectDirectory = /home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Catalogo/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ29cQ3JlYXIuY3NodG1s
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Catalogo/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0YWxvZ28vQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Catalogo/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ29cRWRpdGFyLmNzaHRtbA==
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Catalogo/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0YWxvZ28vRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Catalogo/Eliminar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ29cRWxpbWluYXIuY3NodG1s
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Catalogo/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0YWxvZ28vRWxpbWluYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Catalogo/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZ29cSW5kZXguY3NodG1s
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Catalogo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0YWxvZ28vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Libros/Detalles.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicm9zXERldGFsbGVzLmNzaHRtbA==
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Libros/Detalles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlicm9zL0RldGFsbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Libros/Eliminar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicm9zXEVsaW1pbmFyLmNzaHRtbA==
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Libros/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlicm9zL0VsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Libros/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicm9zXEluZGV4LmNzaHRtbA==
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Libros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlicm9zL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Registro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm8uY3NodG1s
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lab20-PC02/Desktop/Biblioteca-en-razor/Biblioteca/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-3uw395tcbl
+[/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bv8qki186y

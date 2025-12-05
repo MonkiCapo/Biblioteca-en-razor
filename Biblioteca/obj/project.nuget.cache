@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AA/A0Zzm8Xw=",
+  "dgSpecHash": "+81v0Zgx9mvDBgFwrbI/Nyct4eKlADufIWydpFHdtuNNjTdyqU7rjCmfdKQSe8KgYU1fx7cwFon1PqB52dCSvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lab20-PC02\\Desktop\\Biblioteca-en-razor\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "/home/et12alumno/Escritorio/Biblioteca-en-razor/Biblioteca/Biblioteca.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lab20-PC02\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
-    "C:\\Users\\Lab20-PC02\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\Lab20-PC02\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\Lab20-PC02\\.nuget\\packages\\mysqlconnector\\2.5.0\\mysqlconnector.2.5.0.nupkg.sha512"
+    "/home/et12alumno/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
+    "/home/et12alumno/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/et12alumno/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/et12alumno/.nuget/packages/mysqlconnector/2.5.0/mysqlconnector.2.5.0.nupkg.sha512"
   ],
   "logs": []
 }

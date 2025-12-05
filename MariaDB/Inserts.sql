@@ -1,4 +1,4 @@
--- Active: 1764935079768@@127.0.0.1@3306@biblioteca
+-- Active: 1691412339871@@127.0.0.1@3306@5to_BiblioRazor
 INSERT INTO CatalogoLibro (Titulo, Autor, Anio, Descripcion) VALUES
 ('El Señor de los Anillos', 'J.R.R. Tolkien', 1954, 'Fantasía épica'),
 ('1984', 'George Orwell', 1949, 'Distopía política'),

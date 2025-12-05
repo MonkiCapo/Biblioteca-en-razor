@@ -1,7 +1,7 @@
 # <p align="center">📚 MONILIOTECA</p>
 
 <p align="center">
-  <img src="/mnt/data/monky.png" width="180">
+  <img src="Doc/monky.png" width="450px" Height="450px">
 </p>
 
 <p align="center"><i>“Lecturas que te hacen evolucionar”</i></p>
@@ -16,8 +16,8 @@ Permite a los usuarios registrarse, iniciar sesión y gestionar su propia biblio
 
 ## 👥 Equipo de Desarrollo
 
-- **Ezequiel Lizasoain** – Desarrollador principal  
-- **Alina Martinez** – Colaboradora
+- **Ezequiel Lizasoain**   
+- **Alina Martinez** 
 
 ---
 
@@ -80,10 +80,10 @@ Ejecutar el archivo:
 Contenido de `bd.sql`:
 
 ```sql
-DROP DATABASE IF EXISTS Biblioteca;
-CREATE DATABASE Biblioteca;
+DROP DATABASE IF EXISTS 5to_BiblioRazor;
+CREATE DATABASE 5to_BiblioRazor;
 
-USE Biblioteca;
+USE 5to_BiblioRazor;
 
 CREATE TABLE Rol (
     Id INT AUTO_INCREMENT PRIMARY KEY,
@@ -151,12 +151,14 @@ Editar el archivo `appsettings.json`:
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=Biblioteca;User=root;Password=TU_PASSWORD;"
+    "DefaultConnection": "Server=localhost;Database=5to_BiblioRazor;User=root;Password=TU_PASSWORD;"
   }
 }
 ```
 
 ⚠️ Reemplazar `TU_PASSWORD` por la contraseña real de MariaDB.
+
+  Y tu `TU_USER` por el usuario que tengas
 
 ---
 
@@ -244,6 +246,52 @@ Esto permite mayor control y mejor rendimiento.
 - Subida y eliminación de imágenes
 - Modo claro / oscuro
 - Validaciones básicas
+
+---
+
+## 📋 Lista de Tareas del Proyecto
+
+| Tarea | Descripción                             | Precedencia | Duración |
+|-------|-----------------------------------------|-------------|----------|
+| A     | Crear repositorio                       | —           | 1 día    |
+| B     | Armar estructura del proyecto          | —           | 1 día    |
+| C     | Agregar páginas necesarias             | —           | 2 días   |
+| D     | Armar el diseño de cada página         | C           | 2 días   |
+| E     | Agregar base de datos                  | B           | 3 días   |
+| F     | Agregar buscador de libros             | E           | 4 días   |
+| G     | Agregar tabla de usuarios              | E           | 1 día    |
+| H     | Crear tabla de libros                  | E           | 1 día    |
+| I     | Agregar registro de usuario y login    | G           | 3 días   |
+| J     | Agregar libros mediante la BD          | H           | 2 días   |
+| K     | Agregar cerrado de sesión              | I           | 2 días   |
+
+---
+
+```mermaid
+gantt
+    title Plan del Proyecto - Biblioteca Virtual
+    dateFormat  YYYY-MM-DD
+    excludes    weekends
+
+    section Inicialización
+    Crear repositorio                :a, 2025-01-01, 1d
+    Armar estructura del proyecto    :b, 2025-01-01, 1d
+
+    section Desarrollo Base
+    Agregar páginas necesarias       :c, 2025-01-02, 2d
+    Armar diseño de cada página      :d, after c, 2d
+    Agregar base de datos            :e, after b, 3d
+
+    section Base de Datos
+    Agregar tabla de usuarios        :g, after e, 1d
+    Crear tabla de libros            :h, after e, 1d
+
+    section Funcionalidades
+    Agregar registro y login         :i, after g, 3d
+    Agregar libros mediante la BD    :j, after h, 2d
+    Agregar buscador de libros       :f, after e, 4d
+    Agregar cerrado de sesión        :k, after i, 2d
+```
 
 ---
 
