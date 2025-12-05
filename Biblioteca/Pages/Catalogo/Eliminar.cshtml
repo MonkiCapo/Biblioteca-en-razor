@@ -1,0 +1,15 @@
+@page "{id:int}"
+@model Biblioteca.Pages.Catalogo.EliminarModel
+
+<h2>Eliminar Libro del Catálogo</h2>
+
+<p>¿Estás seguro que deseas eliminar este libro?</p>
+
+<p><strong>@Model.Libro.Titulo</strong> - @Model.Libro.Autor</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <button type="submit">Sí, eliminar</button>
+    <a asp-page="Index">Cancelar</a>
+</form>

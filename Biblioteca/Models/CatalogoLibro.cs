@@ -13,7 +13,9 @@ namespace Biblioteca.Models
         public int? Anio { get; set; }
         public string Descripcion { get; set; }
 
-        public bool YaEnMiBiblioteca { get; set; }
+        public string? ImagenUrl { get; set; }  // ✅ NUEVO
 
+        public bool YaEnMiBiblioteca { get; set; } // Solo para vista
     }
+
 }

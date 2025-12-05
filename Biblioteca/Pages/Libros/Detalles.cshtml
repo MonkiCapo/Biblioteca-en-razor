@@ -10,6 +10,11 @@
 else
 {
     <div>
+        @if (!string.IsNullOrEmpty(Model.Libro.ImagenUrl))
+        {
+            <img src="@Model.Libro.ImagenUrl" width="180" style="margin-bottom:15px;" />
+        }
+
         <p><strong>Título:</strong> @Model.Libro.Titulo</p>
         <p><strong>Autor:</strong> @Model.Libro.Autor</p>
         <p><strong>Año:</strong> @Model.Libro.Anio</p>
@@ -17,6 +22,6 @@ else
         <p>@Model.Libro.Descripcion</p>
     </div>
 
-    <a asp-page="Index">Volver</a> 
-    <a asp-page="Editar" asp-route-id="@Model.Libro.Id">Editar</a>
+    <a asp-page="Index">Volver</a>
+    <a asp-page="Eliminar" asp-route-id="@Model.Libro.Id">Eliminar</a>
 }

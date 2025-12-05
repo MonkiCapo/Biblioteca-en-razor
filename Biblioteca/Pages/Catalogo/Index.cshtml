@@ -5,45 +5,75 @@
 
 @if (User.IsInRole("Admin"))
 {
-    <a asp-page="Crear" class="btn btn-primary">
+    <a asp-page="Crear" class="btn btn-primary mb-3">
         Agregar libro al catálogo
     </a>
 }
 
-
 <table class="table">
 
-<tr>
+    <tr>
+        <th>Imagen</th>   <!-- ✅ NUEVO -->
         <th>Título</th>
         <th>Autor</th>
         <th>Año</th>
-        <th></th>
+        <th>Acciones</th>
     </tr>
 
 @foreach (var libro in Model.Catalogo)
 {
     <tr>
-        <td>@libro.Titulo</td>
-        <td>@libro.Autor</td>
-        <td>@libro.Anio</td>
         <td>
-            @if (libro.YaEnMiBiblioteca)
+            @if (!string.IsNullOrEmpty(libro.ImagenUrl))
             {
-                <button disabled class="btn btn-secondary">
-                    Ya en tu biblioteca
-                </button>
+                <img src="@libro.ImagenUrl" width="80" />
             }
             else
             {
-                <form method="post">
-                    <input type="hidden" name="id" value="@libro.Id" />
-                    <button type="submit" class="btn btn-success">
-                        Agregar a mi biblioteca
-                    </button>
-                </form>
+                <span>Sin imagen</span>
             }
         </td>
 
+        <td>@libro.Titulo</td>
+        <td>@libro.Autor</td>
+        <td>@libro.Anio</td>
+
+        <td>
+            <div style="display:flex; gap:8px; flex-wrap:wrap;">
+
+                @if (libro.YaEnMiBiblioteca)
+                {
+                    <button disabled class="btn btn-secondary">
+                        Ya en tu biblioteca
+                    </button>
+                }
+                else
+                {
+                    <form method="post">
+                        <input type="hidden" name="id" value="@libro.Id" />
+                        <button type="submit" class="btn btn-success">
+                            Agregar a mi biblioteca
+                        </button>
+                    </form>
+                }
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-page="Editar"
+                       asp-route-id="@libro.Id"
+                       class="btn btn-warning">
+                        Editar
+                    </a>
+
+                    <a asp-page="Eliminar"
+                       asp-route-id="@libro.Id"
+                       class="btn btn-danger">
+                        Eliminar
+                    </a>
+                }
+
+            </div>
+        </td>
     </tr>
 }
 </table>

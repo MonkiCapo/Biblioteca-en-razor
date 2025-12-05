@@ -1,4 +1,4 @@
--- Active: 1709043130692@@127.0.0.1@3306@mysql
+-- Active: 1764935079768@@127.0.0.1@3306
 DROP DATABASE IF EXISTS Biblioteca;
 CREATE DATABASE Biblioteca;
 
@@ -26,7 +26,8 @@ CREATE TABLE CatalogoLibro (
     Titulo VARCHAR(200) NOT NULL,
     Autor VARCHAR(200) NOT NULL,
     Anio INT,
-    Descripcion TEXT
+    Descripcion TEXT,
+    ImagenUrl VARCHAR(300)
 );
 
 CREATE TABLE Libro ( 
@@ -35,5 +36,9 @@ CREATE TABLE Libro (
     Autor VARCHAR(200) NOT NULL,
     Anio INT, Descripcion TEXT,
     UsuarioId INT,
+    ImagenUrl VARCHAR(300),
     FOREIGN KEY (UsuarioId) REFERENCES Usuario(Id)
 );
+
+
+

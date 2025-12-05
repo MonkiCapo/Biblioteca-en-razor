@@ -1,0 +1,50 @@
+@page "{id:int}"
+@model Biblioteca.Pages.Catalogo.EditarModel
+
+<h2 class="form-title">Editar libro</h2>
+
+<form method="post" enctype="multipart/form-data" class="form-card">
+
+    <input type="hidden" asp-for="Libro.Id" />
+
+    <div class="form-group">
+        <label>Título</label>
+        <input asp-for="Libro.Titulo" class="form-control" />
+        <span asp-validation-for="Libro.Titulo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Autor</label>
+        <input asp-for="Libro.Autor" class="form-control" />
+        <span asp-validation-for="Libro.Autor" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Año</label>
+        <input asp-for="Libro.Anio" type="number" class="form-control" />
+        <span asp-validation-for="Libro.Anio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Descripción</label>
+        <textarea asp-for="Libro.Descripcion" class="form-control"></textarea>
+        <span asp-validation-for="Libro.Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Imagen actual</label><br />
+        @if (!string.IsNullOrEmpty(Model.Libro.ImagenUrl))
+        {
+            <img src="@Model.Libro.ImagenUrl" width="120" class="img-preview" />
+        }
+    </div>
+
+    <div class="form-group">
+        <label>Nueva imagen (opcional)</label>
+        <input type="file" asp-for="Imagen" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-warning">
+        Guardar cambios
+    </button>
+</form>

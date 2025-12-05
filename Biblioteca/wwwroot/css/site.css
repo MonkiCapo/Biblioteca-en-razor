@@ -104,3 +104,77 @@ body, .navbar, .nav-link, .navbar-brand, footer {
 .navbar a.nav-link, .navbar-brand {
   color: var(--bs-link-color) !important;
 }
+
+/* ===== FORMULARIOS ESTILO BONITO ===== */
+
+.form-card {
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 12px;
+  background-color: var(--bs-bg-body);
+  color: var(--text-color);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-control-custom {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.form-control-custom:focus {
+  outline: none;
+  box-shadow: var(--btn-focus-shadow);
+  border-color: #258cfb;
+}
+
+input[type="file"].form-control-custom {
+  padding: 4px;
+}
+
+.btn-guardar {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1.05rem;
+  border-radius: 10px;
+}
+
+.preview-imagen {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.preview-imagen img {
+  max-width: 120px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Ajustes específicos para modo oscuro */
+[data-tema="oscuro"] .form-control-custom {
+  border: 1px solid #555;
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+}
+

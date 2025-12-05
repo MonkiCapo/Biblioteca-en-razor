@@ -1,16 +1,27 @@
 @page
 @model RegistroModel
 
-<h2>Registro</h2>
+<div class="form-card">
+    <h2>Registro</h2>
 
-<form method="post">
-    <input asp-for="Nombre" placeholder="Nombre" />
-    <input asp-for="Email" placeholder="Email" />
-    <input asp-for="Password" placeholder="Contraseña" type="password" />
-    <button type="submit">Registrarse</button>
-</form>
+    <form method="post">
+        <div class="form-group">
+            <input asp-for="Nombre" class="form-control" placeholder="Nombre" />
+        </div>
 
-@if (Model.Error != null)
-{
-    <p>@Model.Error</p>
-}
+        <div class="form-group">
+            <input asp-for="Email" class="form-control" placeholder="Email" />
+        </div>
+
+        <div class="form-group">
+            <input asp-for="Password" class="form-control" placeholder="Contraseña" type="password" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Registrarse</button>
+    </form>
+
+    @if (Model.Error != null)
+    {
+        <div class="alert alert-danger mt-3">@Model.Error</div>
+    }
+</div>

@@ -12,6 +12,8 @@ namespace Biblioteca.Models
         public string Autor { get; set; }
         public int? Anio { get; set; }
         public string Descripcion { get; set; }
+        public string? ImagenUrl { get; set; } // ✅ NUEVO
         public int UsuarioId { get; set; }
     }
+
 }

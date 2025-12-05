@@ -5,28 +5,36 @@
 
 <table class="table">
     <tr>
+        <th>Imagen</th>
         <th>Título</th>
         <th>Autor</th>
         <th>Año</th>
-        <th>Descripcion</th>
+        <th>Descripción</th>
         <th></th>
     </tr>
 
 @foreach (var libro in Model.Libros)
 {
     <tr>
+        <td>
+            @if (!string.IsNullOrEmpty(libro.ImagenUrl))
+            {
+                <img src="@libro.ImagenUrl" width="70" />
+            }
+        </td>
         <td>@libro.Titulo</td>
         <td>@libro.Autor</td>
         <td>@libro.Anio</td>
         <td>@libro.Descripcion</td>
         <td>
             <a asp-page="Detalles" asp-route-id="@libro.Id">Ver</a> |
-            <a asp-page="Editar" asp-route-id="@libro.Id">Editar</a> |
             <a asp-page="Eliminar" asp-route-id="@libro.Id">Eliminar</a>
         </td>
     </tr>
 }
 </table>
 
-<p>Si queres ver más libros, podes</p>
-<a asp-page="/Catalogo/Index" class="btn btn-info">Ver catálogo de libros</a>
+<p>Si no tenés libros, o querés ver más, podés</p>
+<a asp-page="/Catalogo/Index" class="btn btn-info">
+    Ver catálogo de libros
+</a>

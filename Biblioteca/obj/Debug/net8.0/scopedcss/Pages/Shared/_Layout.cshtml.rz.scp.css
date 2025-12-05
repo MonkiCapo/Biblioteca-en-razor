@@ -40,9 +40,10 @@ button.accept-policy[b-3uw395tcbl] {
 }
 
 .footer[b-3uw395tcbl] {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  margin-top: 50px;
 }
+

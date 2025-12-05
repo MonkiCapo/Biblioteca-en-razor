@@ -1,15 +1,23 @@
 @page
 @model LoginModel
 
-<h2>Iniciar Sesión</h2>
+<div class="form-card">
+    <h2>Iniciar Sesión</h2>
 
-<form method="post" asp-antiforgery="true">
-    <input asp-for="Email" placeholder="Email" />
-    <input asp-for="Password" type="password" placeholder="Contraseña" />
-    <button type="submit">Entrar</button>
-</form>
+    <form method="post" asp-antiforgery="true">
+        <div class="form-group">
+            <input asp-for="Email" class="form-control" placeholder="Email" />
+        </div>
 
-@if (Model.Error != null)
-{
-    <p>@Model.Error</p>
-}
+        <div class="form-group">
+            <input asp-for="Password" class="form-control" type="password" placeholder="Contraseña" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Entrar</button>
+    </form>
+
+    @if (Model.Error != null)
+    {
+        <div class="alert alert-danger mt-3">@Model.Error</div>
+    }
+</div>

@@ -102,17 +102,18 @@ namespace Biblioteca.Pages.Catalogo
 
             // 4️⃣ Insertar el libro solo si no existía
             await con.ExecuteAsync(
-                @"INSERT INTO Libro (Titulo, Autor, Anio, Descripcion, UsuarioId)
-                VALUES (@Titulo, @Autor, @Anio, @Descripcion, @UsuarioId)",
+                    @"INSERT INTO Libro 
+                    (Titulo, Autor, Anio, Descripcion, ImagenUrl, UsuarioId)
+                    VALUES (@Titulo,@Autor,@Anio,@Descripcion,@ImagenUrl,@UsuarioId)",
                 new
                 {
                     libro.Titulo,
                     libro.Autor,
                     libro.Anio,
                     libro.Descripcion,
+                    libro.ImagenUrl, // ✅ SE COPIA
                     UsuarioId = userId
-                }
-            );
+                });
 
         return RedirectToPage("/Libros/Index");
         }
