@@ -295,6 +295,14 @@ gantt
 
 ---
 
+## 📋 CPM del proyecto
+
+<p align="center">
+  <img src="Doc/CPM_PROYECTO.drawio.png">
+</p>
+
+---
+
 ## 📄 Licencia
 
 Proyecto desarrollado con fines **educativos/escolares**.
